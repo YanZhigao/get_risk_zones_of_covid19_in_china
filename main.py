@@ -8,7 +8,7 @@ import time
 import json
 import hashlib
 import requests
-import schedule
+# import schedule
 
 # 设置企业微信机器人的webhook
 webhook = os.environ['WEBHOOK']
@@ -130,7 +130,8 @@ def job():
 
 
 if __name__ == '__main__':
-    schedule.every().day.at('09:09').do(job)
-    while True:
-        schedule.run_pending()
+    # schedule.every().day.at('09:09').do(job)
+    # while True:
+    #     schedule.run_pending()
+    job()
     
