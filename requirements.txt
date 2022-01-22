@@ -1,5 +1,3 @@
---index https://pypi.tuna.tsinghua.edu.cn/simple
 hashlib
 requests
 schedule
-json
