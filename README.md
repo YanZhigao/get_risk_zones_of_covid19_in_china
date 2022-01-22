@@ -1,7 +1,7 @@
 ## get_risk_zones_of_covid19_in_china
 - http://bmfw.www.gov.cn/yqfxdjcx/risk.html
 - 从卫健委疫情风险等级查询网站中获得所有中高风险区并得到自己需要的文本格式并定时推送到企业微信机器人。
-- Fork后设置Secrets：WEBHOOK #你的企业微信机器人webhook地址，即可每日9:00获取最新中高风险区数据。
+- Fork后设置Secrets：WEBHOOK #你的企业微信机器人webhook地址，启用Actions即可每日9:00获取最新中高风险区数据。
 - 数据格式，以2022/01/22 19:30:00中国境内中高风险区为例：
 
 > 目前有高风险地区19个，中风险地区75个，以下所列地区为中高风险地区。
