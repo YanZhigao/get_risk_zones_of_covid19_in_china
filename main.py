@@ -4,6 +4,7 @@
 @time: 2022/01/19 15:05:07
 @describe:从卫健委疫情风险等级查询网站（http://bmfw.www.gov.cn/yqfxdjcx/risk.html）中获得所有中高风险区并得到自己需要的文本格式并定时推送到企业微信机器人。
 '''
+import os
 import time
 import json
 import hashlib
