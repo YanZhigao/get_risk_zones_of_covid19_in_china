@@ -16,7 +16,7 @@ webhook = os.environ['https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=72851
 
 
 def get_timestamp():
-    timestamp = str(int(time.time(04：00)))
+    timestamp = str(int(time.time(03：00)))
     return timestamp
 
 
