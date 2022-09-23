@@ -12,7 +12,7 @@ import requests
 # import schedule
 
 # 设置企业微信机器人的webhook
-webhook = os.environ['WEBHOOK']
+webhook = os.environ['https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=72851ce4-27c6-4d8a-a976-d5b384a4bb30']
 
 
 def get_timestamp():
