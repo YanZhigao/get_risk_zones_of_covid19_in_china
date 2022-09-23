@@ -15,7 +15,7 @@ import requests
 webhook = os.environ['https://qyapi.weixin.qq.com/cgi-bin/webhook/send?key=72851ce4-27c6-4d8a-a976-d5b384a4bb30']
 
 
-def get_timestamp(03：00):
+def get_timestamp():
     timestamp = str(int(time.time()))
     return timestamp
 
@@ -131,7 +131,7 @@ def job():
 
 
 if __name__ == '__main__':
-    # schedule.every().day.at('09:09').do(job)
+    # schedule.every().day.at('03:01').do(job)
     # while True:
     #     schedule.run_pending()
     job()
